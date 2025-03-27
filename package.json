@@ -1,3 +1,13 @@
+"homepage": "https://hano990928.github.io/hano-website",
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+},
+
 {
   "name": "hano-website",
   "version": "0.1.0",
